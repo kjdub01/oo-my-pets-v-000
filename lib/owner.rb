@@ -4,7 +4,7 @@ class Owner
   @@all = []
   
   def initialize(species)
-    
+    @species = species
     @pets = {fishes: [], casts: [], dogs: []}
     @@all << self
   end
@@ -21,7 +21,8 @@ class Owner
     @@all.clear
   end
   
-  def species
-    
-  end 
+  def say_species
+    puts "I am #{species}."
+  end
+  
 end
