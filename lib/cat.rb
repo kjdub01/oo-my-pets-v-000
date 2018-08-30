@@ -10,7 +10,7 @@ class Cat
     return "nervous"
   end
   
-  def mood=(feeling)
+  def mood=(mood)
     
   end
 end
