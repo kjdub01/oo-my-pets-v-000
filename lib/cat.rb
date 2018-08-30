@@ -3,11 +3,10 @@ class Cat
   
   def initialize(name)
     @name = name
-    mood
   end
   
   def mood
-    
+    nervous
   end
   
   def mood=()
