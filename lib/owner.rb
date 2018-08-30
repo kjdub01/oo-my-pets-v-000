@@ -20,6 +20,6 @@ class Owner
   end
   
   def species
-    Owner.new = "human"
+    Owner.new = human
   end 
 end
