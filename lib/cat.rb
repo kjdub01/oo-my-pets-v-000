@@ -9,7 +9,7 @@ class Cat
     "nervous"
   end
   
-  def mood=()
+  def mood=(mood)
     self.mood = mood
   end
 end
