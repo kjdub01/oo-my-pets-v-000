@@ -6,6 +6,6 @@ class Cat
   end
   
   def mood
-    return "nervouse"
+    return "nervous"
   end
 end
