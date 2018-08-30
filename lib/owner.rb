@@ -53,8 +53,7 @@ class Owner
   end
   
   def sell_pets
-    def play_with_cats
-     owner.pets.map {|pets| .mood = "happy"}
+     @pets.each do |type, 
   end
   end
   
