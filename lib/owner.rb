@@ -60,7 +60,7 @@ class Owner
   end
   
   def list_pets
-    pets.each do |pets|
+    puts "I have #{pets[:fishes]} fishes, "
   end
   
 end
