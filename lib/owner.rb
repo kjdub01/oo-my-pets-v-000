@@ -20,6 +20,6 @@ class Owner
   end
   
   def species
-    Owner.new
+    
   end 
 end
